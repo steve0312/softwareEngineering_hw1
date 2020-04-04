@@ -18,7 +18,7 @@ int main()
 	cout << endl;
 	cout << "search 75 : " <<  tree.search_Node(75) << endl;
 	cout << "search 15 : " << tree.search_Node(15) << endl;
-	cout << tree.delete_Node(30) << endl;
+	cout << tree.delete_Node(40) << endl;
 	tree.display();
 	cout << endl;
 	cout << "search 100 : " << tree.search_Node(100) << endl;
