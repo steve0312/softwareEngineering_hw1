@@ -94,6 +94,7 @@ void solve() {
 	flag = false;
 	foo(dt, n);
 
+	cout << "solve method recursive" << endl;
 	solve();
 }
 
@@ -103,6 +104,7 @@ int main() {
 	cout << "1번 사용자의 algo_hw3 코드 수정테스트" << endl;
 	solve();
 
+	cout << "2번 사용자의 algo_hw3 코드 수정테스트" << endl;
 	system("pause");
 	return 0;
 }

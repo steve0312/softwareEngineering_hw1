@@ -104,6 +104,8 @@ void solve() {
 	res += "}\n";
 
 	cout << res;
+
+	cout << "solve method recursive" << endl;
 	solve();
 }
 
@@ -113,6 +115,7 @@ int main() {
 	cout << "1번 사용자의 algo_hw2 코드 수정테스트" << endl;
 	solve();
 
+	cout << "2번 사용자의 algo_hw2 코드 수정테스트" << endl;
 	system("pause");
 	return 0;
 }

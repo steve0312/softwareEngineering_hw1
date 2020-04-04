@@ -12,6 +12,7 @@ int main()
 	tree.insert(75);
 	tree.insert(100);
 	tree.insert(30);
+	tree.insert(40);
 	tree.insert(10);
 	tree.display();
 	cout << endl;
@@ -20,7 +21,9 @@ int main()
 	cout << tree.delete_Node(30) << endl;
 	tree.display();
 	cout << endl;
-	cout << "search 50 : " << tree.search_Node(50) << endl;
+	cout << "search 100 : " << tree.search_Node(100) << endl;
+
+	cout << "2번 사용자의 DS 과제 수정테스트" << endl;
 
 	return 0;
 }
