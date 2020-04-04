@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	cout << "1번 사용자의 DS 과제 수정테스트" << endl;
 	Tree tree = Tree();
 	tree.insert(50);
 	tree.insert(25);
@@ -14,9 +15,9 @@ int main()
 	tree.insert(10);
 	tree.display();
 	cout << endl;
-	cout << "search 50 : " <<  tree.search_Node(50) << endl;
+	cout << "search 75 : " <<  tree.search_Node(75) << endl;
 	cout << "search 15 : " << tree.search_Node(15) << endl;
-	cout << tree.delete_Node(50) << endl;
+	cout << tree.delete_Node(30) << endl;
 	tree.display();
 	cout << endl;
 	cout << "search 50 : " << tree.search_Node(50) << endl;

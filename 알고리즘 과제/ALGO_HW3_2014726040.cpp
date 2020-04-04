@@ -68,6 +68,7 @@ void foo(string str, int y) {
 }
 
 void solve() {
+	cout << "solve 함수 시작" << endl;
 	cin >> t;
 	if (t == "EOI") {
 		return;
@@ -99,6 +100,7 @@ void solve() {
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
+	cout << "1번 사용자의 algo_hw3 코드 수정테스트" << endl;
 	solve();
 
 	system("pause");

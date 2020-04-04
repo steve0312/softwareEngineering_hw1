@@ -53,6 +53,8 @@ long long dp(vector<int>& v, int sum)
 }
 
 void solve() {
+	cout << "solve 함수 시작" << endl;
+
 	res = "";
 	vt.clear();
 	fill(visit, visit + 1501, false);
@@ -108,7 +110,9 @@ void solve() {
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
+	cout << "1번 사용자의 algo_hw2 코드 수정테스트" << endl;
 	solve();
+
 	system("pause");
 	return 0;
 }
